@@ -1,0 +1,90 @@
+import random
+bombo1 = ["Rusia", "Alemania", "Brasil", "Portugal", "Argentina", "Bélgica", "Polonia", "Francia"]
+bombo2 = ["España", "Perú", "Suiza", "Inglaterra", "Colombia", "México", "Uruguay", "Croacia"]
+bombo3 = ["Dinamarca", "Islandia", "Costa Rica", "Suecia", "Túnez", "Egipto", "Senegal", "Irán"]
+bombo4 = ["Serbia", "Nigeria", "Australia", "Japón", "Marruecos", "Panamá", "Corea del Sur", "Arabia Saudita"]
+
+def agrupar(bombo1, bombo2, bombo3, bombo4):
+    listaA = []
+    listaA.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaA[0])
+    listaA.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaA[1])
+    listaA.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaA[2])
+    listaA.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaA[3])
+
+    listaB = []
+    listaB.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaB[0])
+    listaB.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaB[1])
+    listaB.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaB[2])
+    listaB.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaB[3])
+
+    listaC = []
+    listaC.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaC[0])
+    listaC.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaC[1])
+    listaC.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaC[2])
+    listaC.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaC[3])
+
+    listaD = []
+    listaD.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaD[0])
+    listaD.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaD[1])
+    listaD.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaD[2])
+    listaD.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaD[3])
+
+    listaE = []
+    listaE.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaE[0])
+    listaE.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaE[1])
+    listaE.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaE[2])
+    listaE.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaE[3])
+
+    listaF = []
+    listaF.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaF[0])
+    listaF.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaF[1])
+    listaF.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaF[2])
+    listaF.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaF[3])
+
+    listaG = []
+    listaG.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaG[0])
+    listaG.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaG[1])
+    listaG.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaG[2])
+    listaG.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaG[3])
+
+    listaH = []
+    listaH.append(bombo1[random.randint(0, len(bombo1)-1)])
+    bombo1.remove(listaH[0])
+    listaH.append(bombo2[random.randint(0, len(bombo2)-1)])
+    bombo2.remove(listaH[1])
+    listaH.append(bombo3[random.randint(0, len(bombo3)-1)])
+    bombo3.remove(listaH[2])
+    listaH.append(bombo4[random.randint(0, len(bombo4)-1)])
+    bombo4.remove(listaH[3])
+    return print(listaA, listaB, listaC, listaD, listaE, listaF, listaG, listaH)
+
+agrupar(bombo1,bombo2,bombo3,bombo4)
+
